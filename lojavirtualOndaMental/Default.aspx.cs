@@ -19,8 +19,8 @@ namespace lojavirtualOndaMental
         {
 
            
-            GoogleConnect.ClientId = "804760204150-r9v4hbm9kh2dj7guf6839bkskenmru8v.apps.googleusercontent.com";
-            GoogleConnect.ClientSecret = "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";
+            GoogleConnect.ClientId = "privado";
+            GoogleConnect.ClientSecret = "privado";
             GoogleConnect.RedirectUri = "https://localhost:44320/Default.aspx";
 
             if (!string.IsNullOrEmpty(Request.QueryString["code"]))
